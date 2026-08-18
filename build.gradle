@@ -1,0 +1,8 @@
+plugins {
+    // ModDevGradle 用于 NeoForge 与 common 模块（版本在 gradle.properties 中配置）
+    // 查看最新版本: https://projects.neoforged.net/neoforged/moddevgradle
+    id 'net.neoforged.moddev' version "${moddev_gradle_version}" apply false
+    // ForgeGradle 用于 Forge 模块
+    // 查看最新版本: https://projects.minecraftforge.net/forge/forgegradle
+    id 'net.minecraftforge.gradle' version '[6.0.24,6.2)' apply false
+}
